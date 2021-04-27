@@ -1,0 +1,53 @@
+body{
+    background-image: url("../background/index.png");
+    background-size: cover; 
+}
+
+hgroup{
+	font-family: Georgia, serif;
+	font-size: 20pt;
+    text-align: center;
+    color: #DA70D6;
+    text-shadow: #000000 0px 0px 3px;
+}
+
+h2{
+	font-family: Georgia, serif;
+	text-align: center;
+}	
+
+p{
+	font-family: Georgia, serif;
+	font-size: 18pt;
+	text-align: justify;
+	text-indent: 40px;
+	background-color: rgb(176,224,230,.3);
+}
+
+nav#menu ul{
+	list-style: none;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+nav#menu li{
+	display: inline-block;
+	border-style: solid;
+	background-color: #DA70D6;
+	transition: background-color 1s;
+	padding: 10px;
+	margin: 2px;
+}
+
+nav#menu li:hover{
+	background-color: #FF0000;
+}
+
+nav#menu a{
+	font-family: Georgia, serif;
+	color: black;
+}
+
+nav#menu a:hover{
+	color: #DA70D6;
+}

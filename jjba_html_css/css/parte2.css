@@ -1,0 +1,89 @@
+body{
+	background-color: #DDA0DD;
+	background-image: url("../logo/jojo_logo.png");
+}
+
+div#texto{
+	background-color: #DB7093;
+	padding: 10px;
+	border-style: solid;
+}
+
+nav#anterior{
+	top: 0px;
+	position: absolute;
+	font-size: 18pt;
+	background-color: #AFEEEE;
+	padding: 10px;
+	border-style: solid;
+	transition: background-color 1s
+}
+nav#anterior:hover{
+	background-color: #DB7093;
+}
+nav#proximo{
+	top: 0px;
+	right: 5px;
+	position: absolute;
+	font-size: 18pt;
+	background-color: #AFEEEE;
+	padding: 10px;
+	border-style: solid;
+	transition: background-color 1s
+}
+nav#proximo:hover{
+	background-color: #DB7093;
+}
+
+nav#menu a{
+	font-family: Georgia, serif;
+	color: black;
+}
+figure.foto-legenda{
+	text-align: center;
+}
+nav#menu a:hover{
+	color: #AFEEEE;
+}
+figure.foto-legenda img{
+	height: 400px;
+	width: 350px;
+}
+figure.foto-legenda figcaption{
+	opacity: 0;
+	transition: opacity 1s;
+	position: absolute;
+	top: 15px;
+	right: 500px;
+	color: white;
+	background-color: rgb(0,0,0,.4); 
+	height: 400px;
+	width: 350px;
+}
+
+h1{
+	font-family: Georgia, serif;
+	text-align: center;
+}
+
+h2{
+	font-family: Georgia, serif;
+	text-align: center;
+	font-size: 20pt;
+}
+
+p{
+	font-family: Georgia, serif;
+	font-size: 18pt;
+	text-align: justify;
+	text-indent: 40px;
+
+}
+
+figure.foto-legenda figcaption:hover{
+	opacity: 1;
+}
+figure.foto-legenda h3{
+	font: Georgia, serif;
+	color: white;
+}
